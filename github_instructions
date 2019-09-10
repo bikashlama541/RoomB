@@ -1,0 +1,44 @@
+What is Github?
+- Github is a version control system. Also, Git is a command-line tool
+whereas Github.com is the website where we can store project and share
+with peers or co workers.
+
+Steps to create a project in Github:
+a) Go to github.com
+b) login and click new button in repositories
+# Repositories is a directory where you store all your files 
+c) create a name and add description as you wish.
+#Public is prefereed as private is not fee.
+d) Always initializa the repository with a README
+# It will help you to clone the repository to your comouter easily.
+e) Create a repository.
+
+Now the repository is created , we want all our friends to clone it.
+While cloning use https method instead of ssh becasue ssh requires key pairing.
+
+Important git hub commands:
+a) git clone ---////link////---
+- It will now clone the respository to your computer/ terminal
+
+b) git status
+- It will show all you git status. Every small changes made to the git room
+is shown after applying this command.
+
+c) git add <file name>
+- In order to add files, we use this command. but remember the file has to be 
+in git repository , or the command won't run.
+
+d) git commit -m
+- After the file is added , next step is to commit on it. Doing it makes sure
+that the file is ready to be uploaded. This command is always followed by git
+add.
+
+e) git push
+- After commiting to the added, which is ready to be uploaded. git push command
+is used to upload now. Refresh the website and the file is now uploaded.
+
+f) git pull
+- Git pull command is used to see if any changes is made by other users. Just
+hitting git pull command will show all the changes made.
+
+
