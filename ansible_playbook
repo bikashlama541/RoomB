@@ -1,0 +1,6 @@
+Basic terminologies of Ansible Playbook
+
+1) hosts: group names as defined in inventory.
+2) gather_facts: 
+3) sudo: accessing as a root
+4) Handlers: 
