@@ -1,0 +1,14 @@
+tar tutorials:
+-cvf : creates a tar archive file : tar-cvf new.tar $path
+	c- create a tar file, 
+	v- verbose input
+	f- specify the archive file name
+-tvf : list the contents of the files : tar-tvf new.tar
+	t- view contents of tar files.
+
+-rvf : append or add files to end of archieve or tar file.
+	r- add files
+
+-xvf : extract files and directories from the tar file.
+	tar -xvf new.tar
+	where -x : extract
