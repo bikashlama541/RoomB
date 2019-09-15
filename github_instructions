@@ -41,4 +41,7 @@ f) git pull
 - Git pull command is used to see if any changes is made by other users. Just
 hitting git pull command will show all the changes made.
 
+g) git checkout branch_name
+- Changing the branch of git.
+
 
