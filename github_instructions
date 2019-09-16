@@ -44,4 +44,9 @@ hitting git pull command will show all the changes made.
 g) git checkout branch_name
 - Changing the branch of git.
 
+h) git checkout branch_name_whereyouwanttocopyfrom filename_init
+- In order to copy files from one branch to other this command can be used. Let's say I want to copy abc.txt file from master to friends.
+Step 1: switch to friends branch because you want the file to be copied here.
+Step 2: git checkout master abc.txt ( Now the abc.txt file is copied from master to branch) 
+
 
