@@ -1,0 +1,14 @@
+Steps to change root password ....
+
+--- while booting e 
+---UTF -0 rd.break
+---ctrl X
+
+---mount -o remount,rw /sysroot
+
+---chroot /sysroot
+
+---passwd ... again ......
+---touch /.autorelabel 
+---exit
+---exit
